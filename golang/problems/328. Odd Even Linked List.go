@@ -2,10 +2,11 @@ package problems
 
 
  // Definition for singly-linked list.
-  type ListNode struct {
-	  Val  int
-	  Next *ListNode
-  }
+ type ListNode struct {
+	 Val  int
+	 Next *ListNode
+ }
+
 func OddEvenList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
