@@ -29,7 +29,6 @@ type MedianFinder struct {
 
 /** initialize your data structure here. */
 func Constructor() MedianFinder {
-	// h := &IntHeap{}
 	a := &IntHeap{}
 	b := &IntHeap{}
 	heap.Init(a)

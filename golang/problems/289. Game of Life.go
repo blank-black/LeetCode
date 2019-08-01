@@ -1,6 +1,6 @@
 package problems
 
-func gameOfLife(board [][]int)  {
+func GameOfLife(board [][]int)  {
 	m := len(board)
 	if m == 0 {
 		return

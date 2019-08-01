@@ -3,7 +3,7 @@ package problems
 // dynamic
 // time o(nlogn)	space o(n)
 
-func numSquares(n int) int {
+func NumSquares(n int) int {
 	if n <= 0 {
 		return 0
 	}
